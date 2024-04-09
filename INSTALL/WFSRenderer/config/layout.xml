@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WFSLayout speakerDistance="0.12" maxDistance="30.0" addDistance="8.0" frontWallLength="4.318" sideWallLength="7.318" >
+	<room nwalls="4" >
+		<wall x="3.659"  y="2.159" />
+		<wall x="3.659"  y="-2.159" />
+		<wall x="-3.659" y="-2.159" />
+		<wall x="-3.659" y="2.159" />
+	</room>
+	<chanlist nchannel="189">
+		<channel xpos="3.6590" ypos="2.0560" host="1" port="1"/>
+		<channel xpos="3.6590" ypos="1.9360" host="1" port="2"/>
+		<channel xpos="3.6590" ypos="1.8160" host="1" port="3"/>
+		<channel xpos="3.6590" ypos="1.6960" host="1" port="4"/>
+		<channel xpos="3.6590" ypos="1.5760" host="1" port="5"/>
+		<channel xpos="3.6590" ypos="1.4560" host="1" port="6"/>
+		<channel xpos="3.6590" ypos="1.3360" host="1" port="7"/>
+		<channel xpos="3.6590" ypos="1.2160" host="1" port="8"/>
+		<channel xpos="3.6590" ypos="1.0960" host="1" port="9"/>
+		<channel xpos="3.6590" ypos="0.9760" host="1" port="10"/>
+		<channel xpos="3.6590" ypos="0.8400" host="1" port="11"/>
+		<channel xpos="3.6590" ypos="0.7200" host="1" port="12"/>
+		<channel xpos="3.6590" ypos="0.6000" host="1" port="13"/>
+		<channel xpos="3.6590" ypos="0.4800" host="1" port="14"/>
+		<channel xpos="3.6590" ypos="0.3600" host="1" port="15"/>
+		<channel xpos="3.6590" ypos="0.2400" host="1" port="16"/>
+		<channel xpos="3.6590" ypos="0.1200" host="1" port="17"/>
+		<channel xpos="3.6590" ypos="-0.0000" host="1" port="18"/>
+		<channel xpos="3.6590" ypos="-0.1200" host="1" port="19"/>
+		<channel xpos="3.6590" ypos="-0.2400" host="1" port="20"/>
+		<channel xpos="3.6590" ypos="-0.3600" host="1" port="21"/>
+		<channel xpos="3.6590" ypos="-0.4800" host="1" port="22"/>
+		<channel xpos="3.6590" ypos="-0.6000" host="1" port="23"/>
+		<channel xpos="3.6590" ypos="-0.7200" host="1" port="24"/>
+		<channel xpos="3.6590" ypos="-0.8400" host="1" port="25"/>
+		<channel xpos="3.6590" ypos="-0.9760" host="1" port="26"/>
+		<channel xpos="3.6590" ypos="-1.0960" host="1" port="27"/>
+		<channel xpos="3.6590" ypos="-1.2160" host="1" port="28"/>
+		<channel xpos="3.6590" ypos="-1.3360" host="1" port="29"/>
+		<channel xpos="3.6590" ypos="-1.4560" host="1" port="30"/>
+		<channel xpos="3.6590" ypos="-1.5760" host="1" port="31"/>
+		<channel xpos="3.6590" ypos="-1.6960" host="1" port="32"/>
+		<channel xpos="3.6590" ypos="-1.8160" host="1" port="33"/>
+		<channel xpos="3.6590" ypos="-1.9360" host="1" port="34"/>
+		<channel xpos="3.6590" ypos="-2.0560" host="1" port="35"/>
+		<channel xpos="3.5720" ypos="-2.1590" host="1" port="36"/>
+		<channel xpos="3.4520" ypos="-2.1590" host="1" port="37"/>
+		<channel xpos="3.3320" ypos="-2.1590" host="1" port="38"/>
+		<channel xpos="3.2120" ypos="-2.1590" host="1" port="39"/>
+		<channel xpos="3.0920" ypos="-2.1590" host="1" port="40"/>
+		<channel xpos="2.9720" ypos="-2.1590" host="1" port="41"/>
+		<channel xpos="2.8520" ypos="-2.1590" host="1" port="42"/>
+		<channel xpos="2.7320" ypos="-2.1590" host="1" port="43"/>
+		<channel xpos="2.6120" ypos="-2.1590" host="1" port="44"/>
+		<channel xpos="2.4920" ypos="-2.1590" host="1" port="45"/>
+		<channel xpos="2.3560" ypos="-2.1590" host="1" port="46"/>
+		<channel xpos="2.2360" ypos="-2.1590" host="1" port="47"/>
+		<channel xpos="2.1160" ypos="-2.1590" host="1" port="48"/>
+		<channel xpos="1.9960" ypos="-2.1590" host="1" port="49"/>
+		<channel xpos="1.8760" ypos="-2.1590" host="1" port="50"/>
+		<channel xpos="1.7560" ypos="-2.1590" host="1" port="51"/>
+		<channel xpos="1.6360" ypos="-2.1590" host="1" port="52"/>
+		<channel xpos="1.5160" ypos="-2.1590" host="1" port="53"/>
+		<channel xpos="1.3960" ypos="-2.1590" host="1" port="54"/>
+		<channel xpos="1.2760" ypos="-2.1590" host="1" port="55"/>
+		<channel xpos="1.1400" ypos="-2.1590" host="1" port="56"/>
+		<channel xpos="1.0200" ypos="-2.1590" host="1" port="57"/>
+		<channel xpos="0.9000" ypos="-2.1590" host="1" port="58"/>
+		<channel xpos="0.7800" ypos="-2.1590" host="1" port="59"/>
+		<channel xpos="0.6600" ypos="-2.1590" host="1" port="60"/>
+		<channel xpos="0.5400" ypos="-2.1590" host="1" port="61"/>
+		<channel xpos="0.4200" ypos="-2.1590" host="1" port="62"/>
+		<channel xpos="0.3000" ypos="-2.1590" host="1" port="63"/>
+		<channel xpos="0.1800" ypos="-2.1590" host="1" port="64"/>
+		<channel xpos="0.0600" ypos="-2.1590" host="2" port="1"/>
+		<channel xpos="-0.0760" ypos="-2.1590" host="2" port="2"/>
+		<channel xpos="-0.1960" ypos="-2.1590" host="2" port="3"/>
+		<channel xpos="-0.3160" ypos="-2.1590" host="2" port="4"/>
+		<channel xpos="-0.4360" ypos="-2.1590" host="2" port="5"/>
+		<channel xpos="-0.5560" ypos="-2.1590" host="2" port="6"/>
+		<channel xpos="-0.6760" ypos="-2.1590" host="2" port="7"/>
+		<channel xpos="-0.7960" ypos="-2.1590" host="2" port="8"/>
+		<channel xpos="-0.9160" ypos="-2.1590" host="2" port="9"/>
+		<channel xpos="-1.0360" ypos="-2.1590" host="2" port="10"/>
+		<channel xpos="-1.1560" ypos="-2.1590" host="2" port="11"/>
+		<channel xpos="-1.2920" ypos="-2.1590" host="2" port="12"/>
+		<channel xpos="-1.4120" ypos="-2.1590" host="2" port="13"/>
+		<channel xpos="-1.5320" ypos="-2.1590" host="2" port="14"/>
+		<channel xpos="-1.6520" ypos="-2.1590" host="2" port="15"/>
+		<channel xpos="-1.7720" ypos="-2.1590" host="2" port="16"/>
+		<channel xpos="-1.8920" ypos="-2.1590" host="2" port="17"/>
+		<channel xpos="-2.0120" ypos="-2.1590" host="2" port="18"/>
+		<channel xpos="-2.1320" ypos="-2.1590" host="2" port="19"/>
+		<channel xpos="-2.2520" ypos="-2.1590" host="2" port="20"/>
+		<channel xpos="-2.3720" ypos="-2.1590" host="2" port="21"/>
+		<channel xpos="-2.5080" ypos="-2.1590" host="2" port="22"/>
+		<channel xpos="-2.6280" ypos="-2.1590" host="2" port="23"/>
+		<channel xpos="-2.7480" ypos="-2.1590" host="2" port="24"/>
+		<channel xpos="-2.8680" ypos="-2.1590" host="2" port="25"/>
+		<channel xpos="-2.9880" ypos="-2.1590" host="2" port="26"/>
+		<channel xpos="-3.1080" ypos="-2.1590" host="2" port="27"/>
+		<channel xpos="-3.2280" ypos="-2.1590" host="2" port="28"/>
+		<channel xpos="-3.3480" ypos="-2.1590" host="2" port="29"/>
+		<channel xpos="-3.4680" ypos="-2.1590" host="2" port="33"/>
+		<channel xpos="-3.5880" ypos="-2.1590" host="2" port="34"/>
+		<channel xpos="-3.6590" ypos="-2.0220" host="2" port="35"/>
+		<channel xpos="-3.6590" ypos="-1.9020" host="2" port="36"/>
+		<channel xpos="-3.6590" ypos="-1.7820" host="2" port="37"/>
+		<channel xpos="-3.6590" ypos="-1.6620" host="2" port="38"/>
+		<channel xpos="-3.6590" ypos="-1.5420" host="2" port="39"/>
+		<channel xpos="-3.6590" ypos="-1.4220" host="2" port="40"/>
+		<channel xpos="-3.6590" ypos="-1.3020" host="2" port="41"/>
+		<channel xpos="-3.6590" ypos="-1.1820" host="2" port="42"/>
+		<channel xpos="-3.6590" ypos="-1.0620" host="2" port="43"/>
+		<channel xpos="-3.6590" ypos="-0.9420" host="2" port="44"/>
+		<channel xpos="-3.6590" ypos="-0.8220" host="2" port="45"/>
+		<channel xpos="-3.6590" ypos="-0.7020" host="2" port="46"/>
+		<channel xpos="-3.6590" ypos="-0.5820" host="2" port="47"/>
+		<channel xpos="-3.6590" ypos="-0.4620" host="2" port="48"/>
+		<channel xpos="-3.6590" ypos="-0.3420" host="2" port="49"/>
+		<channel xpos="-3.6590" ypos="-0.2220" host="2" port="50"/>
+		<channel xpos="-3.6590" ypos="-0.1020" host="2" port="51"/>
+		<channel xpos="-3.6590" ypos="0.1020" host="2" port="52"/>
+		<channel xpos="-3.6590" ypos="0.2220" host="2" port="53"/>
+		<channel xpos="-3.6590" ypos="0.3420" host="2" port="54"/>
+		<channel xpos="-3.6590" ypos="0.4620" host="2" port="55"/>
+		<channel xpos="-3.6590" ypos="0.5820" host="2" port="56"/>
+		<channel xpos="-3.6590" ypos="0.7020" host="2" port="57"/>
+		<channel xpos="-3.6590" ypos="0.8220" host="2" port="58"/>
+		<channel xpos="-3.6590" ypos="0.9420" host="2" port="59"/>
+		<channel xpos="-3.6590" ypos="1.0620" host="2" port="60"/>
+		<channel xpos="-3.6590" ypos="1.1820" host="2" port="61"/>
+		<channel xpos="-3.6590" ypos="1.3020" host="2" port="62"/>
+		<channel xpos="-3.6590" ypos="1.4220" host="2" port="63"/>
+		<channel xpos="-3.6590" ypos="1.5420" host="2" port="64"/>
+		<channel xpos="-3.6590" ypos="1.6620" host="3" port="1"/>
+		<channel xpos="-3.6590" ypos="1.7820" host="3" port="2"/>
+		<channel xpos="-3.6590" ypos="1.9020" host="3" port="3"/>
+		<channel xpos="-3.6590" ypos="2.0220" host="3" port="4"/>
+		<channel xpos="-3.5880" ypos="2.1590" host="3" port="5"/>
+		<channel xpos="-3.4680" ypos="2.1590" host="3" port="6"/>
+		<channel xpos="-3.3480" ypos="2.1590" host="3" port="7"/>
+		<channel xpos="-3.2280" ypos="2.1590" host="3" port="8"/>
+		<channel xpos="-3.1080" ypos="2.1590" host="3" port="9"/>
+		<channel xpos="-2.9880" ypos="2.1590" host="3" port="10"/>
+		<channel xpos="-2.8680" ypos="2.1590" host="3" port="11"/>
+		<channel xpos="-2.7480" ypos="2.1590" host="3" port="12"/>
+		<channel xpos="-2.6280" ypos="2.1590" host="3" port="13"/>
+		<channel xpos="-2.5080" ypos="2.1590" host="3" port="14"/>
+		<channel xpos="-2.3720" ypos="2.1590" host="3" port="15"/>
+		<channel xpos="-2.2520" ypos="2.1590" host="3" port="16"/>
+		<channel xpos="-2.1320" ypos="2.1590" host="3" port="17"/>
+		<channel xpos="-2.0120" ypos="2.1590" host="3" port="18"/>
+		<channel xpos="-1.8920" ypos="2.1590" host="3" port="19"/>
+		<channel xpos="-1.7720" ypos="2.1590" host="3" port="20"/>
+		<channel xpos="-1.6520" ypos="2.1590" host="3" port="21"/>
+		<channel xpos="-1.5320" ypos="2.1590" host="3" port="22"/>
+		<channel xpos="-1.4120" ypos="2.1590" host="3" port="23"/>
+		<channel xpos="-1.2920" ypos="2.1590" host="3" port="24"/>
+		<channel xpos="-1.1560" ypos="2.1590" host="3" port="25"/>
+		<channel xpos="-1.0360" ypos="2.1590" host="3" port="26"/>
+		<channel xpos="-0.9160" ypos="2.1590" host="3" port="27"/>
+		<channel xpos="-0.7960" ypos="2.1590" host="3" port="28"/>
+		<channel xpos="-0.6760" ypos="2.1590" host="3" port="29"/>
+		<channel xpos="-0.5560" ypos="2.1590" host="3" port="30"/>
+		<channel xpos="-0.4360" ypos="2.1590" host="3" port="31"/>
+		<channel xpos="-0.3160" ypos="2.1590" host="3" port="32"/>
+		<channel xpos="-0.1960" ypos="2.1590" host="3" port="33"/>
+		<channel xpos="-0.0760" ypos="2.1590" host="3" port="34"/>
+		<channel xpos="0.0600" ypos="2.1590" host="3" port="35"/>
+		<channel xpos="0.1800" ypos="2.1590" host="3" port="36"/>
+		<channel xpos="0.3000" ypos="2.1590" host="3" port="37"/>
+		<channel xpos="0.4200" ypos="2.1590" host="3" port="38"/>
+		<channel xpos="0.5400" ypos="2.1590" host="3" port="39"/>
+		<channel xpos="0.6600" ypos="2.1590" host="3" port="40"/>
+		<channel xpos="0.7800" ypos="2.1590" host="3" port="41"/>
+		<channel xpos="0.9000" ypos="2.1590" host="3" port="42"/>
+		<channel xpos="1.0200" ypos="2.1590" host="3" port="43"/>
+		<channel xpos="1.1400" ypos="2.1590" host="3" port="44"/>
+		<channel xpos="1.2760" ypos="2.1590" host="3" port="45"/>
+		<channel xpos="1.3960" ypos="2.1590" host="3" port="46"/>
+		<channel xpos="1.5160" ypos="2.1590" host="3" port="47"/>
+		<channel xpos="1.6360" ypos="2.1590" host="3" port="48"/>
+		<channel xpos="1.7560" ypos="2.1590" host="3" port="49"/>
+		<channel xpos="1.8760" ypos="2.1590" host="3" port="50"/>
+		<channel xpos="1.9960" ypos="2.1590" host="3" port="51"/>
+		<channel xpos="2.1160" ypos="2.1590" host="3" port="52"/>
+		<channel xpos="2.2360" ypos="2.1590" host="3" port="53"/>
+		<channel xpos="2.3560" ypos="2.1590" host="3" port="54"/>
+		<channel xpos="2.5220" ypos="2.1590" host="3" port="55"/>
+		<channel xpos="2.6420" ypos="2.1590" host="3" port="56"/>
+		<channel xpos="2.7620" ypos="2.1590" host="3" port="57"/>
+		<channel xpos="2.8820" ypos="2.1590" host="3" port="58"/>
+		<channel xpos="3.0020" ypos="2.1590" host="3" port="59"/>
+		<channel xpos="3.1220" ypos="2.1590" host="3" port="60"/>
+		<channel xpos="3.2420" ypos="2.1590" host="3" port="61"/>
+		<channel xpos="3.3620" ypos="2.1590" host="3" port="62"/>
+		<channel xpos="3.4820" ypos="2.1590" host="3" port="63"/>
+		<channel xpos="3.6020" ypos="2.1590" host="3" port="64"/>
+	</chanlist>
+	<segmlist nsegment="8">
+		<segment channelRef="0" />
+		<segment channelRef="34" />
+		<segment channelRef="35" />
+		<segment channelRef="94" />
+		<segment channelRef="95" />
+		<segment channelRef="128" />
+		<segment channelRef="129" />
+		<segment channelRef="188" />
+	</segmlist>
+</WFSLayout>

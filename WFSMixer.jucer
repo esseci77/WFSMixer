@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="eNeqdv" name="WFSMixer" projectType="audioplug" version="2.0.4"
+              bundleIdentifier="com.unipr.WFSMixer" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="0" buildAU="1" buildAUv3="0" buildRTAS="0"
+              buildAAX="0" pluginName="WFSMixer" pluginDesc="WFSMixer" pluginManufacturer="unipr"
+              pluginManufacturerCode="Unpr" pluginCode="WM32" pluginChannelConfigs="{MAX_SOURCES,MAX_OUTPUTS}"
+              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
+              pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0" pluginAUExportPrefix="WFSMixer32AU"
+              pluginRTASCategory="" aaxIdentifier="com.unipr.WFSMixer" pluginAAXCategory="2"
+              pluginFormats="buildAU,buildVST" displaySplashScreen="1" jucerFormatVersion="1"
+              buildStandalone="0" enableIAA="0" splashScreenColour="Light">
+  <MAINGROUP id="SCgH5U" name="WFSMixer">
+    <GROUP id="{3C7B9808-85F0-CE85-80A2-4DEBA6408ED9}" name="Source">
+      <GROUP id="{9012621F-C55D-FD19-669A-B04884E7BA62}" name="engine">
+        <FILE id="XaUGjz" name="atimeref.cc" compile="1" resource="0" file="Source/engine/atimeref.cc"/>
+        <FILE id="Zw2FSf" name="atimeref.h" compile="0" resource="0" file="Source/engine/atimeref.h"/>
+        <FILE id="dkEhzY" name="filter.cc" compile="1" resource="0" file="Source/engine/filter.cc"/>
+        <FILE id="f7guzQ" name="filter.h" compile="0" resource="0" file="Source/engine/filter.h"/>
+        <FILE id="E0vM69" name="global.h" compile="0" resource="0" file="Source/engine/global.h"/>
+        <FILE id="abDjCU" name="params.cc" compile="1" resource="0" file="Source/engine/params.cc"/>
+        <FILE id="Z5XcJh" name="params.h" compile="0" resource="0" file="Source/engine/params.h"/>
+        <FILE id="YFUcfd" name="shmem.cc" compile="1" resource="0" file="Source/engine/shmem.cc"/>
+        <FILE id="dNZUSR" name="shmem.h" compile="0" resource="0" file="Source/engine/shmem.h"/>
+        <FILE id="vFzyXi" name="source.cc" compile="1" resource="0" file="Source/engine/source.cc"/>
+        <FILE id="w2HMt8" name="source.h" compile="0" resource="0" file="Source/engine/source.h"/>
+        <FILE id="LcF9pY" name="wfslayout.cc" compile="1" resource="0" file="Source/engine/wfslayout.cc"/>
+        <FILE id="howIhJ" name="wfslayout.h" compile="0" resource="0" file="Source/engine/wfslayout.h"/>
+      </GROUP>
+      <GROUP id="{2CEA4F4A-112B-BE0A-3DA2-75CE298E7832}" name="resources">
+        <FILE id="bOQNpC" name="Comfortaa-Bold.ttf" compile="0" resource="1"
+              file="Resources/comfortaa/Comfortaa-Bold.ttf"/>
+        <FILE id="Gd0KRF" name="Comfortaa-Light.ttf" compile="0" resource="1"
+              file="Resources/comfortaa/Comfortaa-Light.ttf"/>
+        <FILE id="vJmob5" name="Comfortaa-Regular.ttf" compile="0" resource="1"
+              file="Resources/comfortaa/Comfortaa-Regular.ttf"/>
+        <FILE id="dALTA0" name="LEDCalculator.ttf" compile="0" resource="1"
+              file="Resources/LEDCalculator.ttf"/>
+        <FILE id="gcCfo9" name="neuropolitical rg.ttf" compile="0" resource="1"
+              file="Resources/neuropolitical/neuropolitical rg.ttf"/>
+      </GROUP>
+      <GROUP id="{3A3EA875-8228-575C-FCD1-145840AB820A}" name="ui">
+        <FILE id="jO22uM" name="AnimationConstants.h" compile="0" resource="0"
+              file="Source/ui/AnimationConstants.h"/>
+        <FILE id="nbiOOn" name="ImageKnob.cpp" compile="1" resource="0" file="Source/ui/ImageKnob.cpp"/>
+        <FILE id="wmfd3u" name="ImageKnob.h" compile="0" resource="0" file="Source/ui/ImageKnob.h"/>
+        <FILE id="va5IyQ" name="ImageKnobLarge.h" compile="0" resource="0"
+              file="Source/ui/ImageKnobLarge.h"/>
+        <FILE id="K0pdBR" name="ImageKnobSmall.h" compile="0" resource="0"
+              file="Source/ui/ImageKnobSmall.h"/>
+        <FILE id="MxCijD" name="IndicatorLight.cpp" compile="1" resource="0"
+              file="Source/ui/IndicatorLight.cpp"/>
+        <FILE id="qT0Xfo" name="IndicatorLight.h" compile="0" resource="0"
+              file="Source/ui/IndicatorLight.h"/>
+        <FILE id="o5VEB2" name="LCDComponent.cpp" compile="1" resource="0"
+              file="Source/ui/LCDComponent.cpp"/>
+        <FILE id="EHoKhs" name="LCDComponent.h" compile="0" resource="0" file="Source/ui/LCDComponent.h"/>
+        <FILE id="PM1A2u" name="ResourceCache.cpp" compile="1" resource="0"
+              file="Source/ui/ResourceCache.cpp"/>
+        <FILE id="ktMmS9" name="ResourceCache.h" compile="0" resource="0" file="Source/ui/ResourceCache.h"/>
+        <FILE id="hTOOKu" name="Resources.cpp" compile="1" resource="0" file="Source/ui/Resources.cpp"/>
+        <FILE id="mvID0T" name="Resources.h" compile="0" resource="0" file="Source/ui/Resources.h"/>
+        <FILE id="DwMu1i" name="TeragonGuiComponents.h" compile="0" resource="0"
+              file="Source/ui/TeragonGuiComponents.h"/>
+        <FILE id="ZcvO2N" name="ThinButton.cpp" compile="1" resource="0" file="Source/ui/ThinButton.cpp"/>
+        <FILE id="Ly4jty" name="ThinButton.h" compile="0" resource="0" file="Source/ui/ThinButton.h"/>
+        <FILE id="tg0azT" name="ToggleButton.h" compile="0" resource="0" file="Source/ui/ToggleButton.h"/>
+      </GROUP>
+      <FILE id="nuQtir" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="ktqgMe" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="qVGtlz" name="PluginParameters.cpp" compile="1" resource="0"
+            file="Source/PluginParameters.cpp"/>
+      <FILE id="mtGI8T" name="PluginParameters.h" compile="0" resource="0"
+            file="Source/PluginParameters.h"/>
+      <FILE id="MWOaHn" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="jkBMm1" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="p0uUlw" name="SphereOpenGL.cpp" compile="1" resource="0"
+            file="Source/SphereOpenGL.cpp"/>
+      <FILE id="y5w54E" name="SphereOpenGL.h" compile="0" resource="0" file="Source/SphereOpenGL.h"/>
+      <FILE id="Gu7RSD" name="WfsLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/WfsLookAndFeel.cpp"/>
+      <FILE id="ao9q2a" name="WfsLookAndFeel.h" compile="0" resource="0"
+            file="Source/WfsLookAndFeel.h"/>
+      <FILE id="mSsS4A" name="WfsMixerStripComponent.cpp" compile="1" resource="0"
+            file="Source/WfsMixerStripComponent.cpp"/>
+      <FILE id="XMSGLG" name="WfsMixerStripComponent.h" compile="0" resource="0"
+            file="Source/WfsMixerStripComponent.h"/>
+      <FILE id="WJorJ7" name="WfsOscCodec.cpp" compile="1" resource="0" file="Source/WfsOscCodec.cpp"/>
+      <FILE id="y2DxYB" name="WfsOscCodec.h" compile="0" resource="0" file="Source/WfsOscCodec.h"/>
+      <FILE id="Ve1RXx" name="WfsSourcesLayoutIO.cpp" compile="1" resource="0"
+            file="Source/WfsSourcesLayoutIO.cpp"/>
+      <FILE id="TsUMPM" name="WfsSourcesLayoutIO.h" compile="0" resource="0"
+            file="Source/WfsSourcesLayoutIO.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" vstFolder="/Users/costa/VST3 SDK"
+               externalLibraries="" extraDefs="MAX_SOURCES=8&#10;MAX_OUTPUTS=192&#10;JUCE_MODAL_LOOPS_PERMITTED">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="WFSMixerd_i8_o192"
+                       headerPath="../../../common/libcdswfs" libraryPath="" defines="RENDERER_ID=1"
+                       osxCompatibility="11.0 SDK" osxArchitecture="Native" macOSDeploymentTarget="11.0"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="WFSMixer_i8_o192"
+                       libraryPath="" headerPath="../../../common/libcdswfs" defines="RENDERER_ID=1"
+                       osxArchitecture="Native"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_osc" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile" vstFolder="/usr/lib/VST3 SDK"
+                externalLibraries="" extraDefs="MAX_SOURCES=32&#10;MAX_OUTPUTS=192">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/&#10;" isDebug="1" optimisation="1"
+                       targetName="WFSRendererMaster" headerPath="../../../Source" defines="RENDERER_ID=1"
+                       linuxArchitecture="-m32"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/&#10;" isDebug="0"
+                       optimisation="3" targetName="WFSRendererMaster" headerPath="../../../Source"
+                       defines="RENDERER_ID=1" linuxArchitecture="-m32"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+        <MODULEPATH id="juce_osc" path="../../../../../src/SDKs/JUCE-6.0.5/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <VS2019 targetFolder="Builds/VisualStudio2019" extraDefs="MAX_SOURCES=8&#10;MAX_OUTPUTS=192&#10;JUCE_MODAL_LOOPS_PERMITTED&#10;_USE_MATH_DEFINES&#10;RENDERER_ID=1">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="WFSMixerd_i8_o192" headerPath="../../../common/libcdswfs"
+                       characterSet="Unicode" postbuildCommand="xcopy /y &quot;$(OutDir)$(TargetFileName)&quot; &quot;C:\Program Files\Common Files\VST2\WfsMixer&quot;"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="WFSMixer_i8_o192" headerPath="../../../common/libcdswfs"
+                       characterSet="Unicode" postbuildCommand="xcopy /y &quot;$(OutDir)$(TargetFileName)&quot; &quot;C:\Program Files\Common Files\VST2\WfsMixer&quot;"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_opengl" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_osc" path="D:\Users\Binelli\Projects\WFSMixer\SDKs\JUCE\modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <VS2022 targetFolder="Builds\VisualStudio2022" extraDefs="MAX_SOURCES=8&#10;MAX_OUTPUTS=192&#10;JUCE_MODAL_LOOPS_PERMITTED&#10;_USE_MATH_DEFINES">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="WFSMixerd_i8_o192" headerPath="../../../common/libcdswfs"
+                       defines="RENDERER_ID=1" characterSet="Unicode"/>
+        <CONFIGURATION isDebug="0" name="Release" headerPath="../../../common/libcdswfs&#10;C:\Download\WFSmixer\WFSMixer\Resources\VST2_SDK\&#10;"
+                       defines="RENDERER_ID=1" targetName="WFSMixer_i8_o192" characterSet="Unicode"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="Z:\src\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="Z:\src\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="Z:\src\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="Z:\src\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="Z:\src\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="Z:\src\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="Z:\src\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="Z:\src\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="Z:\src\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="Z:\src\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="Z:\src\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_opengl" path="Z:\src\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_osc" path="Z:\src\SDKs\JUCE\modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

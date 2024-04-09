@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC6C435C1BA9B93600BCCCE2 /* atimeref.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC6C43511BA9B93600BCCCE2 /* atimeref.cc */; };
+		FC6C435D1BA9B93600BCCCE2 /* atimeref.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6C43521BA9B93600BCCCE2 /* atimeref.h */; };
+		FC6C435E1BA9B93600BCCCE2 /* messages.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6C43531BA9B93600BCCCE2 /* messages.h */; };
+		FC6C435F1BA9B93600BCCCE2 /* shmem.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC6C43541BA9B93600BCCCE2 /* shmem.cc */; };
+		FC6C43601BA9B93600BCCCE2 /* shmem.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6C43551BA9B93600BCCCE2 /* shmem.h */; };
+		FC6C43611BA9B93600BCCCE2 /* wfsconfig.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC6C43561BA9B93600BCCCE2 /* wfsconfig.cc */; };
+		FC6C43621BA9B93600BCCCE2 /* wfsconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6C43571BA9B93600BCCCE2 /* wfsconfig.h */; };
+		FC6C43631BA9B93600BCCCE2 /* wfsengine.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC6C43581BA9B93600BCCCE2 /* wfsengine.cc */; };
+		FC6C43641BA9B93600BCCCE2 /* wfsengine.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6C43591BA9B93600BCCCE2 /* wfsengine.h */; };
+		FC6C43651BA9B93600BCCCE2 /* wfslayout.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC6C435A1BA9B93600BCCCE2 /* wfslayout.cc */; };
+		FC6C43661BA9B93600BCCCE2 /* wfslayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6C435B1BA9B93600BCCCE2 /* wfslayout.h */; };
+		FCD435141CAA8993006FD9B9 /* osxbundleutils.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCD435131CAA8993006FD9B9 /* osxbundleutils.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC6C43491BA9B8DA00BCCCE2 /* libcdswfs-system.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libcdswfs-system.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6C43511BA9B93600BCCCE2 /* atimeref.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = atimeref.cc; path = ../atimeref.cc; sourceTree = "<group>"; };
+		FC6C43521BA9B93600BCCCE2 /* atimeref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = atimeref.h; path = ../atimeref.h; sourceTree = "<group>"; };
+		FC6C43531BA9B93600BCCCE2 /* messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = messages.h; path = ../messages.h; sourceTree = "<group>"; };
+		FC6C43541BA9B93600BCCCE2 /* shmem.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shmem.cc; path = ../shmem.cc; sourceTree = "<group>"; };
+		FC6C43551BA9B93600BCCCE2 /* shmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shmem.h; path = ../shmem.h; sourceTree = "<group>"; };
+		FC6C43561BA9B93600BCCCE2 /* wfsconfig.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wfsconfig.cc; path = ../wfsconfig.cc; sourceTree = "<group>"; };
+		FC6C43571BA9B93600BCCCE2 /* wfsconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wfsconfig.h; path = ../wfsconfig.h; sourceTree = "<group>"; };
+		FC6C43581BA9B93600BCCCE2 /* wfsengine.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wfsengine.cc; path = ../wfsengine.cc; sourceTree = "<group>"; };
+		FC6C43591BA9B93600BCCCE2 /* wfsengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wfsengine.h; path = ../wfsengine.h; sourceTree = "<group>"; };
+		FC6C435A1BA9B93600BCCCE2 /* wfslayout.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wfslayout.cc; path = ../wfslayout.cc; sourceTree = "<group>"; };
+		FC6C435B1BA9B93600BCCCE2 /* wfslayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wfslayout.h; path = ../wfslayout.h; sourceTree = "<group>"; };
+		FC6C43F31BA9BB5000BCCCE2 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../Makefile; sourceTree = "<group>"; };
+		FCD435131CAA8993006FD9B9 /* osxbundleutils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = osxbundleutils.mm; path = ../osxbundleutils.mm; sourceTree = "<group>"; };
+		FCD435151CAA89C1006FD9B9 /* osxbundleutils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = osxbundleutils.h; path = ../osxbundleutils.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6C43461BA9B8DA00BCCCE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC6C43401BA9B8DA00BCCCE2 = {
+			isa = PBXGroup;
+			children = (
+				FC6C43501BA9B8F700BCCCE2 /* source */,
+				FC6C43F31BA9BB5000BCCCE2 /* Makefile */,
+				FC6C434A1BA9B8DA00BCCCE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6C434A1BA9B8DA00BCCCE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C43491BA9B8DA00BCCCE2 /* libcdswfs-system.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6C43501BA9B8F700BCCCE2 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C43511BA9B93600BCCCE2 /* atimeref.cc */,
+				FC6C43521BA9B93600BCCCE2 /* atimeref.h */,
+				FC6C43531BA9B93600BCCCE2 /* messages.h */,
+				FC6C43541BA9B93600BCCCE2 /* shmem.cc */,
+				FC6C43551BA9B93600BCCCE2 /* shmem.h */,
+				FC6C43561BA9B93600BCCCE2 /* wfsconfig.cc */,
+				FC6C43571BA9B93600BCCCE2 /* wfsconfig.h */,
+				FC6C43581BA9B93600BCCCE2 /* wfsengine.cc */,
+				FC6C43591BA9B93600BCCCE2 /* wfsengine.h */,
+				FC6C435A1BA9B93600BCCCE2 /* wfslayout.cc */,
+				FC6C435B1BA9B93600BCCCE2 /* wfslayout.h */,
+				FCD435151CAA89C1006FD9B9 /* osxbundleutils.h */,
+				FCD435131CAA8993006FD9B9 /* osxbundleutils.mm */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FC6C43471BA9B8DA00BCCCE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6C43601BA9B93600BCCCE2 /* shmem.h in Headers */,
+				FC6C43661BA9B93600BCCCE2 /* wfslayout.h in Headers */,
+				FC6C435E1BA9B93600BCCCE2 /* messages.h in Headers */,
+				FC6C43641BA9B93600BCCCE2 /* wfsengine.h in Headers */,
+				FC6C435D1BA9B93600BCCCE2 /* atimeref.h in Headers */,
+				FC6C43621BA9B93600BCCCE2 /* wfsconfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FC6C43481BA9B8DA00BCCCE2 /* CdsWfs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6C434D1BA9B8DA00BCCCE2 /* Build configuration list for PBXNativeTarget "CdsWfs" */;
+			buildPhases = (
+				FC6C43451BA9B8DA00BCCCE2 /* Sources */,
+				FC6C43461BA9B8DA00BCCCE2 /* Frameworks */,
+				FC6C43471BA9B8DA00BCCCE2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CdsWfs;
+			productName = CdsWfs;
+			productReference = FC6C43491BA9B8DA00BCCCE2 /* libcdswfs-system.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6C43411BA9B8DA00BCCCE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Fons Adriaensen";
+				TargetAttributes = {
+					FC6C43481BA9B8DA00BCCCE2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = FC6C43441BA9B8DA00BCCCE2 /* Build configuration list for PBXProject "CdsWfs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC6C43401BA9B8DA00BCCCE2;
+			productRefGroup = FC6C434A1BA9B8DA00BCCCE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6C43481BA9B8DA00BCCCE2 /* CdsWfs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6C43451BA9B8DA00BCCCE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD435141CAA8993006FD9B9 /* osxbundleutils.mm in Sources */,
+				FC6C435F1BA9B93600BCCCE2 /* shmem.cc in Sources */,
+				FC6C435C1BA9B93600BCCCE2 /* atimeref.cc in Sources */,
+				FC6C43651BA9B93600BCCCE2 /* wfslayout.cc in Sources */,
+				FC6C43631BA9B93600BCCCE2 /* wfsengine.cc in Sources */,
+				FC6C43611BA9B93600BCCCE2 /* wfsconfig.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC6C434B1BA9B8DA00BCCCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC6C434C1BA9B8DA00BCCCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC6C434E1BA9B8DA00BCCCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"CDS_2016=1",
+				);
+				INSTALL_PATH = /opt/local/lib;
+				PRODUCT_NAME = "cdswfs-system";
+			};
+			name = Debug;
+		};
+		FC6C434F1BA9B8DA00BCCCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = "CDS_2016=1";
+				INSTALL_PATH = /opt/local/lib;
+				PRODUCT_NAME = "cdswfs-system";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6C43441BA9B8DA00BCCCE2 /* Build configuration list for PBXProject "CdsWfs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6C434B1BA9B8DA00BCCCE2 /* Debug */,
+				FC6C434C1BA9B8DA00BCCCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6C434D1BA9B8DA00BCCCE2 /* Build configuration list for PBXNativeTarget "CdsWfs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6C434E1BA9B8DA00BCCCE2 /* Debug */,
+				FC6C434F1BA9B8DA00BCCCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC6C43411BA9B8DA00BCCCE2 /* Project object */;
+}
