@@ -1,5 +1,7 @@
 # WFSMixer
-A VST plugin for managing a Wave Field Synthesis system: define a layout with an xml file, place and move virtual sources using mouse and/or OSC commands inside you VST host
+A VST plugin for managing a Wave Field Synthesis system: define a layout with an xml file, place and move virtual sources using mouse and/or OSC commands inside you VST host.
+The original rendering code was written by Fons Adriaensen around 2009 for the WFS system of the Casa del Suono in Parma.
+A first VST implementation was done in 2016 by Giacomo Costantini.
 
 ## Build instructions
 
